@@ -1,11 +1,11 @@
 print("I will now count my chickens:")
 
-print("Hens",25+30/6) #adunare si impartire, prima se face impartirea
-print("Roosters", 100 - 25 * 3 % 4) #% - modulo, the reminder of the division; prima se face inmultirea, apoi aflam restul divizarii si apoi scaderea
+print("Hens",25+30/6)
+print("Roosters", 100 - 25 * 3 % 4) # - modulo, the reminder of the division
 
 print("Now I will count the eggs:")
 
-print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)#facem adunarile si scaderile, apoi aflam restul divizarii si facem calculul final
+print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
 
 print("Is it true that 3 + 2 < 5 - 7?")
 
