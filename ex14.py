@@ -1,6 +1,6 @@
 from sys import argv
 script, user_name = argv
-prompt = '> '
+prompt = '>'
 
 
 print(f" {user_name}, I'm the {script} script.")
