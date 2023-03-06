@@ -1,4 +1,4 @@
-# Here's some new strnge stuff, remember type it exactly.
+# Here's some new strong stuff, remember type it exactly.
 
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
