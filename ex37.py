@@ -1,12 +1,12 @@
-print("and - logical and.")
+# and - logical and
 print("True and True is", True and True)
 
-print("The as keyword is part of the with-as statement.")
+# The 'as' keyword is part of the with-as statement.
 
-print("assert - assert/ensure that something is true.")
+# assert - assert/ensure that something is true.
 assert 1 == 1, "This is not good."
 
-print("break - stop this loop right now.")
+# break - stop this loop right now.
 
 x = 10
 
@@ -16,7 +16,7 @@ while x > 0:
         break
     x -= 1
 
-print("class - define a class")
+# class - define a class
 
 
 class Student:
@@ -24,10 +24,29 @@ class Student:
     print(name)
 
 
-print("continue - don't process more of the loop, do it again.")
+# continue - don't process more of the loop, do it again.
 n = 0
 while n < 10:
     n += 1
     if not n % 2:
         continue
     print(n)
+
+exec('print("Hello!")')
+
+# % - String interpolate or modulus
+a = 40
+b = 6
+print(a % b)
+
+# // Floor division
+
+x = 5
+y = 10
+print(x // y)
+
+# **= - power assign
+x = 2
+x **= 2
+print(x)
+
