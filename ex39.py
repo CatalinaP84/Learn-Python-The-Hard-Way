@@ -80,6 +80,7 @@ if not state:
 
 # get a city with a default value
 # city = cities.get('TX', 'Does Not Exist')
+
 city = cities.get('TX')
 if not city:
     print("Does not exist")
