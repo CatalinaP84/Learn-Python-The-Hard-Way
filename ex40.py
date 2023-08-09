@@ -5,7 +5,6 @@
 # thing = MyStuff()
 # thing.apples()
 # print(thing.tangerine)
-
 class Song(object):
 
     def __init__(self, lyrics):
