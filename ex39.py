@@ -42,7 +42,7 @@ cities = {'CA': 'San Francisco', 'MI': 'Detroit', 'FL': 'Jacksonville', 'NY': 'N
 
 # print out some cities
 print('-' * 10)
-print("Ny State has: ", cities['NY'])
+print("NY State has: ", cities['NY'])
 print("OR State has: ", cities['OR'])
 
 # print some states
@@ -79,5 +79,9 @@ if not state:
     print("Sorry, no Texas.")
 
 # get a city with a default value
-city = cities.get('TX', 'Does Not Exist')
-print(f"The city for the state 'TX' is: {city}")
+# city = cities.get('TX', 'Does Not Exist')
+city = cities.get('TX')
+if not city:
+    print("Does not exist")
+else:
+    print(f"The city for the state 'TX' is: {city}")
