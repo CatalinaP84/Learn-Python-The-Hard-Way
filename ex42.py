@@ -3,19 +3,19 @@ class Animal(object):
     pass
 
 
-# ?? - class Dog is-a Animal
+# ?? - Dog is-a Animal
 class Dog(Animal):
 
     def __init__(self, name):
-        # ?? - self.name has-a name
+        # ?? Dog has-a name
         self.name = name
 
 
-# ??- Class Cat is-a Animal
+# ?? -  Cat is-a Animal
 class Cat(Animal):
 
     def __init__(self, name):
-        # ?? - self.name has-a name
+        # ?? - Cat has-a name
         self.name = name
 
 
@@ -23,7 +23,7 @@ class Cat(Animal):
 class Person(object):
 
     def __init__(self, name):
-        # ?? - self name has-a name
+        # ?? - Person has-a name
         self.name = name
 
         # Person has-a pet of some kind
@@ -64,7 +64,7 @@ satan = Cat("Satan")
 # ?? - Mary is-a Person
 mary = Person("Mary")
 
-# ?? - mary has-a pet
+# ?? - mary has a pet
 mary.pet = satan
 
 # ? - Frank is-a Employee
@@ -76,8 +76,8 @@ frank.pet = rover
 # ?? - flipper is-a fish
 flipper = Fish()
 
-# ?? - crouse is-a salmon
+# ?? - crouse is-a Salmon
 crouse = Salmon()
 
-# ?? - harry is-a halibut
+# ?? - harry is-a Halibut
 harry = Halibut()
